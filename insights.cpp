@@ -1,5 +1,6 @@
 #include "head.hpp"
 #include <iostream>
-int insights(){
+void insights(){
+    
 
 }
