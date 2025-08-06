@@ -7,7 +7,7 @@ void saveToFile();
 void weekLog();
 void savePredict();
 void dispHistory();
-void spendWarn();
+void insights();
 void menu();
 
 #endif

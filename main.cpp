@@ -9,7 +9,7 @@ void saveToFile();
 void weekLog();
 void savePredict();
 void dispHistory();
-void spendWarn();
+void insights();
 void menu();
 int main(){
     int choice;
@@ -28,7 +28,7 @@ int main(){
             break;
         case 5:void dispHistory();
             break;
-        case 6:void spendWarn();
+        case 6:void insights();
             break;
         default:
             std::cout<<"invalid choice"<<'\n';
