@@ -8,6 +8,6 @@ void weekLog();
 void savePredict();
 void dispHistory();
 void spendWarn();
-int menu();
+void menu();
 
 #endif

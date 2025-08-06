@@ -2,15 +2,20 @@
 #include <string>
 #include "head.hpp"
 
+
+
 void dailyExpLog();
 void saveToFile();
 void weekLog();
 void savePredict();
 void dispHistory();
 void spendWarn();
-int menu();
+void menu();
 int main(){
-    int choice= menu(choice);
+    int choice;
+    void menu();
+    std::cout<<"enter you rchoice";
+    std::cin>>choice;
 
     switch(choice){
         case 1:void dailyExpLog();
