@@ -1,8 +1,8 @@
 #include "head.hpp"
 #include <iostream>
 
-void menu(){
-    std::cout<<'\t'<<"Welcome to the PREDICTA EXPENSE"<<'\n';
+void main(){
+    std::cout<<'\t'<<"**   Welcome to the PREDICTA EXPENSE   **"<<'\n';
     std::cout<<"-----------------"<<'\n';
     std::cout<<"1.User budget"<<'\n';
     std::cout<<"2.Add expenses"<<'\n';
