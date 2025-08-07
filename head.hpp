@@ -2,10 +2,10 @@
 #define FUNCTIONS_H
 
 // Function declarations
+void askBudget();
 void dailyExpLog();
 void saveToFile();
 void weekLog();
-void savePredict();
 void dispHistory();
 void insights();
 void menu();

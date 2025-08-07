@@ -3,11 +3,10 @@
 #include "head.hpp"
 
 
-
+void askBudget();
 void dailyExpLog();
 void saveToFile();
 void weekLog();
-void savePredict();
 void dispHistory();
 void insights();
 void menu();
@@ -19,13 +18,13 @@ int main(){
 
     do{
     switch(choice){
-        case 1: dailyExpLog();
+        case 1:void askBudget();
             break;
-        case 2:saveToFile();
+        case 2: dailyExpLog();
             break;
-        case 3:weekLog();
+        case 3:saveToFile();
             break;
-        case 4:savePredict();
+        case 4:weekLog();
             break;
         case 5:dispHistory();
             break;
@@ -35,7 +34,9 @@ int main(){
             std::cout<<"Invalid choice"<<'\n';
         
     }
-}while(choice !=0);
+    }while(choice !=0);
+    std::cout<<"Thank you, have a nice day."<<'\n';
+    std::cout<<"-----------------"<<'\n';
     return 0;
 
 }
