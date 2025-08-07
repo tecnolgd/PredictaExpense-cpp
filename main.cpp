@@ -14,9 +14,10 @@ void menu();
 int main(){
     int choice;
     menu();
-    std::cout<<"enter you rchoice";
+    std::cout<<"Enter your choice :";
     std::cin>>choice;
 
+    do{
     switch(choice){
         case 1: dailyExpLog();
             break;
@@ -31,9 +32,10 @@ int main(){
         case 6: insights();
             break;
         default:
-            std::cout<<"invalid choice"<<'\n';
+            std::cout<<"Invalid choice"<<'\n';
         
     }
+}while(choice !=0);
     return 0;
 
 }
