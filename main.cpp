@@ -5,7 +5,7 @@
 
 void askBudget();
 void dailyExpLog();
-void saveToFile();
+void warning();
 void weekLog();
 void dispHistory();
 void insights();
@@ -22,7 +22,7 @@ int main(){
             break;
         case 2: dailyExpLog();
             break;
-        case 3:saveToFile();
+        case 3:warning();
             break;
         case 4:weekLog();
             break;

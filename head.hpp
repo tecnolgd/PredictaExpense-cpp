@@ -4,8 +4,8 @@
 // Function declarations
 void askBudget();
 void dailyExpLog();
-void saveToFile();
 void weekLog();
+void warning();
 void dispHistory();
 void insights();
 void menu();

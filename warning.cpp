@@ -1,5 +1,5 @@
 #include "head.hpp"
 #include <iostream>
-void warnings(){
-    
+void warning(){
+
 }
