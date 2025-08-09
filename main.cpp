@@ -1,24 +1,33 @@
 #include <iostream>
 #include <string>
 #include "head.hpp"
+#include "menu.cpp"
+#include "userBudget.cpp"
+#include "history.cpp"
+#include "dailyLog.cpp"
+#include "insights.cpp"
+#include "warning.cpp"
+#include "weekLog.cpp"
 
 
-void askBudget();
-void dailyExpLog();
-void warning();
-void weekLog();
-void dispHistory();
-void insights();
-void menu();
+    /*int askBudget();
+    void dailyExpLog();
+    void warning();
+    void weekLog();
+    void dispHistory();
+    void insights();
+    void menu();*/
 int main(){
-    int choice;
-    menu();
-    std::cout<<"Enter your choice :";
-    std::cin>>choice;
-
+    int choice,budget;
+    
+    
     do{
+        menu();
+        std::cout<<"Enter your choice :";
+        std::cin>>choice;
+
     switch(choice){
-        case 1:void askBudget();
+        case 1: budget= askBudget();
             break;
         case 2: dailyExpLog();
             break;

@@ -1,6 +1,13 @@
 #include "head.hpp"
 #include <iostream>
 
-void askBudget(){
+int askBudget(){
+    double budget;
+    std::cout<<"$   BUDGET SETTINGS  $  \n";
+    std::cout<<"-----------------"<<'\n';
+    std::cout<<"Please enter your Budget :"<<'\n';
+    std::cin>>budget;
+    return budget;
+
     
 }
