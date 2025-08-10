@@ -1,16 +1,7 @@
 #include <iostream>
 #include <string>
 #include "head.hpp"
-/**/
 
-
-    /*int askBudget();
-    void dailyExpLog();
-    void warning();
-    void weekLog();
-    void dispHistory();
-    void insights();
-    void menu();*/
 int main(){
     int choice=0,test=1;
     double budget;
