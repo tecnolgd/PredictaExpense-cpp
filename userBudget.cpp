@@ -3,6 +3,7 @@
 
 int askBudget(){
     double budget;
+    std::cout<<"*********\n";
     std::cout<<"$   BUDGET SETTINGS  $  \n";
     std::cout<<"-----------------"<<'\n';
     std::cout<<"Please enter your Budget :"<<'\n';
