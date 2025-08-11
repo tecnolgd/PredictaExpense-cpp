@@ -1,14 +1,22 @@
 #include "head.hpp"
 #include <iostream>
 
-int askBudget(){
+int askBudget()
+{
     double budget;
+    int confirm;
     std::cout<<"*********\n";
     std::cout<<"$   BUDGET SETTINGS  $  \n";
     std::cout<<"-----------------"<<'\n';
-    std::cout<<"Please enter your Budget :"<<'\n';
-    std::cin>>budget;
-    return budget;
 
-    
+    do{
+        std::cout<<"Please enter your Budget :"<<'\n';
+        std::cin>>budget;
+        std::cout<<"\t--- enter 1 to confirm, 0 to change the budget ---\n";
+        std::cin>>confirm;
+    }
+    while(confirm !=1);
+
+    std::cout<<"-----------------"<<'\n';
+    return budget;
 }
