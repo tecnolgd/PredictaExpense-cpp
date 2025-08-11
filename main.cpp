@@ -15,7 +15,7 @@ int main(){
             std::cout<<"Invalid choice.TRY AGAIN.o.\n";
             test=1;
         }
-        std::cout<<"Enter your choice :"<<std::endl;
+        std::cout<<"Enter your choice :";
         std::cin>>choice;
         
         switch(choice){
