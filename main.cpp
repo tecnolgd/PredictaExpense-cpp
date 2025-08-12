@@ -7,9 +7,7 @@ int main(){
     double budget;
     bool x=true;
     
-    
     do{ 
-        
         menu();
         if(test==0){
             std::cout<<"Invalid choice.TRY AGAIN.o.\n";
@@ -35,13 +33,11 @@ int main(){
                 break;
             default : test=0;
                 break;
-         }  
+        }  
 
     }while(x);
 
     std::cout<<"Thank you, have a nice day."<<'\n';
     std::cout<<"-----------------"<<'\n';
-    
     return 0;
-
 }
