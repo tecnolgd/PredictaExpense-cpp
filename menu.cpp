@@ -2,6 +2,7 @@
 #include <iostream>
 
 void menu(){
+    
     std::cout<<'\t'<<"**   Welcome to the PREDICTA EXPENSE   **"<<'\n';
     std::cout<<"-----------------"<<'\n';
     std::cout<<"1.User budget"<<'\n';
