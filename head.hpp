@@ -5,8 +5,8 @@
 int askBudget();
 double dailyExpLog();
 void weekLog();
-char warning(int bud,int exp);
-double dispHistory();
+void warning(int bud,int exp);
+void dispHistory();
 void insights();
 void menu();
 
