@@ -3,10 +3,10 @@
 
 // Function declarations
 int askBudget();
-void dailyExpLog();
+double dailyExpLog();
 void weekLog();
-void warning(int x);
-void dispHistory();
+char warning(int bud,int exp);
+double dispHistory();
 void insights();
 void menu();
 
