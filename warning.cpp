@@ -1,6 +1,6 @@
 #include "head.hpp"
 #include <iostream>
-void warning(){
+void warning(int x){
 
 
 }
