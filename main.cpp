@@ -3,7 +3,8 @@
 #include "head.hpp"
 
 int main(){
-    int choice=0,test=1;
+    int choice=0,test=1,ch;
+    
     double budget,tot_exp;
     bool x=true;
     
