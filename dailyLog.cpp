@@ -2,24 +2,34 @@
 #include <iostream>
 #include <string>
 
-void dailyExpLog()
+double dailyExpLog()
 {
-    std::string details;
+    std::string source;
     int log_id=0,i=1;
+    double cost[10];
+    double total_cost;
     std::cout<<"  ** DAILY LOG **  \n";
     std::cout<<"-----------------"<<'\n';
     std::cout<<"Please enter expense details :\n";
+    
     std::cout<<"( NOTE: Details must include date,expense source and individual expense )\n";
 
     while(log_id == 0)
     {   
         std::cout<<i<<") ";
         std::cin.ignore(); // to avoid skipping input
-        std::getline(std::cin,details);
+        std::cout<<"Enter source name : ";
+        std::getline(std::cin,source);
+        std::cout<<"Enter cost/expense : ";
+        std::cin>>cost[i-1];
         std::cout<<"\nEnter 1 to complete the log, 0 to continue logging.\t";
         std::cin>>log_id;
         i++;
     }
+    for(int j=0;j<i;j++){
+         total_cost +=cost[j];
+    }
+    return total_cost; 
 }
     
     
