@@ -21,7 +21,7 @@ int main(){
                 break;
             case 2: dailyExpLog();
                 break;
-            case 3:warning();
+            case 3:warning(budget);
                 break;
             case 4:weekLog();
                 break;
