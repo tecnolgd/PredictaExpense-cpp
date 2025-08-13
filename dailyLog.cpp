@@ -7,7 +7,7 @@ double dailyExpLog()
     std::string source;
     int log_id=0,i=1;
     double cost[10];
-    double total_cost;
+    double total_cost=0.0;
     std::cout<<"  ** DAILY LOG **  \n";
     std::cout<<"-----------------"<<'\n';
     std::cout<<"Please enter expense details :\n";
