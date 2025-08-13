@@ -4,7 +4,7 @@
 
 int main(){
     int choice=0,test=1;
-    double budget;
+    double budget,tot_exp;
     bool x=true;
     
     do{ 
@@ -19,9 +19,9 @@ int main(){
         switch(choice){
             case 1: budget= askBudget();
                 break;
-            case 2: dailyExpLog();
+            case 2: tot_exp=dailyExpLog();
                 break;
-            case 3:warning(budget);
+            case 3:warning(budget,tot_exp);
                 break;
             case 4:weekLog();
                 break;
