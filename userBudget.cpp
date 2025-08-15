@@ -1,7 +1,7 @@
 #include "head.hpp"
 #include <iostream>
 
-int askBudget()
+double askBudget()
 {
     double budget=1.0;
     int confirm;
