@@ -2,7 +2,7 @@
 #define FUNCTIONS_H
 
 // Function declarations
-int askBudget();
+double askBudget();
 double dailyExpLog();
 void weekLog();
 void warning(double bud,double exp);
