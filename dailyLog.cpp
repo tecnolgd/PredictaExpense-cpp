@@ -8,7 +8,7 @@ double dailyExpLog()
     std::string source;
     int log_id=0,i=1;
     std::vector <double> cost;
-    double total_cost=0.0;
+    double total_cost=0.0,expense;
     std::cout<<"  ** DAILY LOG **  \n";
     std::cout<<"-----------------"<<'\n';
     std::cout<<"Please enter expense details :\n";
@@ -22,15 +22,16 @@ double dailyExpLog()
         std::cout<<"Enter source name : ";
         std::getline(std::cin,source);
         std::cout<<"Enter cost/expense : ";
-        std::cin>>cost[i-1];
+        std::cin>>expense;
+        cost.push_back(expense);
         std::cout<<"\nEnter 1 to complete the log, 0 to continue logging.\t";
         std::cin>>log_id;
         i++;
     }
     for(int j=0;j<i;j++){
-         total_cost +=cost[j];
+        total_cost+=cost[j];
     }
-    return total_cost; 
+    return total_cost;
 }
     
     
