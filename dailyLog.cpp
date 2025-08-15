@@ -1,12 +1,13 @@
 #include "head.hpp"
 #include <iostream>
 #include <string>
+#include <vector>
 
 double dailyExpLog()
 {
     std::string source;
     int log_id=0,i=1;
-    double cost[10];
+    std::vector <double> cost;
     double total_cost=0.0;
     std::cout<<"  ** DAILY LOG **  \n";
     std::cout<<"-----------------"<<'\n';
