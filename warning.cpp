@@ -1,7 +1,7 @@
 #include "head.hpp"
 #include <iostream>
 
-void warning(int bud,int exp){
+void warning(double bud,double exp){
 
     if(bud<exp){
         std::cout<<"Warning : You are overspending !\n";
