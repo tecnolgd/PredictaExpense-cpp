@@ -6,7 +6,7 @@ double askBudget()
     double budget=1.0;
     int confirm;
     std::cout<<"*********\n";
-    std::cout<<"$   BUDGET SETTINGS  $  \n";
+    std::cout<<"$   BUDGET SETTINGS   $  \n";
     std::cout<<"-----------------"<<'\n';
 
     do{
