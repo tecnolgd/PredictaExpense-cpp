@@ -9,7 +9,6 @@ void warning(double bud,double exp)
     }
     else if(bud==exp){
             std::cout<<"Warning : Your net budget today is ZERO !\n";
-
     }
     else{
         std::cout<<"Well done !.yoour savinga are progressing.\n";
