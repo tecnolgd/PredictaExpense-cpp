@@ -3,8 +3,8 @@
 
 // Function declarations
 double askBudget();
-double dailyExpLog();
-void weekLog();
+double dailyExpLog(int &session_counter);
+void weekLog(int session_counter);
 void warning(double bud,double exp);
 void dispHistory();
 void insights();
