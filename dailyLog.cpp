@@ -34,14 +34,15 @@ double dailyExpLog()
     
     std::ofstream file("expense_log.txt",std::ios::app);
     if(file.is_open()){
+        file<<"___________________________\n";
         for(int i=0;i<source.size();i++){
-            file<<source[i]<<"--->"<<cost[i]<<std::endl;
+            file<<i<<") "<<source[i]<<"--->"<<cost[i]<<std::endl;
         }
         file.close();
     } else{
         std::cout<<"File not writable\n";
     }
-    
+
     for(int j=0;j<i;j++){
         total_cost+=cost[j];
     }
