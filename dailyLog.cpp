@@ -36,8 +36,9 @@ double dailyExpLog()
     if(file.is_open()){
         file<<"___________________________\n";
         for(int i=0;i<source.size();i++){
-            file<<i<<") "<<source[i]<<"--->"<<cost[i]<<std::endl;
+            file<<i<<") "<<source[i]<<"--->"<<cost[i]<<std::endl; //reding input to the file.
         }
+        file<<"___________________________\n";
         file.close();
     } else{
         std::cout<<"File not writable\n";
