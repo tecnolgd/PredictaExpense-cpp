@@ -2,10 +2,11 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <fstream>
 
 double dailyExpLog()
 {
-    std::string source;
+    std::vector <std::string> source;
     int log_id=0,i=1;
     std::vector <double> cost;
     double total_cost=0.0,expense;
@@ -20,7 +21,9 @@ double dailyExpLog()
         std::cout<<i<<") ";
         std::cin.ignore(); // to avoid skipping input
         std::cout<<"Enter source name : ";
-        std::getline(std::cin,source);
+        std::string temp;  //temporaray string to be later pushed to vector.
+        std::getline(std::cin,temp);
+        source.push_back(temp);
         std::cout<<"Enter cost/expense : ";
         std::cin>>expense;
         cost.push_back(expense);
@@ -28,6 +31,17 @@ double dailyExpLog()
         std::cin>>log_id;
         i++;
     }
+    
+    std::ofstream file("expense_log.txt",std::ios::app);
+    if(file.is_open()){
+        for(int i=0;i<source.size();i++){
+            file<<source[i]<<"--->"<<cost[i]<<std::endl;
+        }
+        file.close();
+    } else{
+        std::cout<<"File not writable\n";
+    }
+    
     for(int j=0;j<i;j++){
         total_cost+=cost[j];
     }
