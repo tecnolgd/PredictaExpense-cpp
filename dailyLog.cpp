@@ -4,7 +4,7 @@
 #include <vector>
 #include <fstream>
 
-double dailyExpLog()
+double dailyExpLog(int &session_counter)
 {
     std::vector <std::string> source;
     int log_id=0,i=1;
@@ -36,9 +36,13 @@ double dailyExpLog()
     if(file.is_open()){
         file<<"___________________________\n";
         for(int i=0;i<source.size();i++){
-            file<<i<<") "<<source[i]<<"---> "<<cost[i]<<std::endl; //reding input to the file.
+            file<<i+1<<") "<<source[i]<<"---> "<<cost[i]<<std::endl; //reding input to the file.
         }
-        file<<"___________________________\n";
+        //file<<"_ _ _ _ _ _ _________ _ _ _ _ _ _ \n";
+        session_counter ++;
+        if(session_counter==8){
+            session_counter=0;
+        }
         file.close();
     } else{
         std::cout<<"File not writable !\n";
