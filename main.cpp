@@ -4,6 +4,7 @@
 
 int main(){
     int choice=0,test=1,ch;
+    int session_counter =0;
     
     double budget,tot_exp;
     bool x=true;
@@ -20,11 +21,11 @@ int main(){
         switch(choice){
             case 1: budget= askBudget();
                 break;
-            case 2: tot_exp=dailyExpLog();
+            case 2: tot_exp=dailyExpLog(session_counter);
                 break;
-            case 3:warning(budget,tot_exp);
+            case 3: warning(budget,tot_exp);
                 break;
-            case 4:weekLog();
+            case 4: weekLog(session_counter);
                 break;
             case 5:dispHistory();
                 break;
