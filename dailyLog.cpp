@@ -47,9 +47,8 @@ double dailyExpLog(int &session_counter)
     } else{
         std::cout<<"File not writable !\n";
     }
-
-    for(int j=0;j<i;j++){
-        total_cost+=cost[j];
+    for(int i=0;i<cost.size();i++){
+        total_cost+=cost[i];
     }
     return total_cost;
 }
