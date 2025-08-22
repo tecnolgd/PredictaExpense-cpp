@@ -11,7 +11,7 @@ double askBudget()
     std::cout<<"-----------------"<<'\n';
 
     do{
-        std::cout<<"Please enter your Budget :"<<'\n';
+        std::cout<<"Please enter your  monthly budget :"<<'\n';
         std::cin>>budget;
         while(budget<=0.0){
             std::cout<<"Invalid budget.Try again !\n";
@@ -24,8 +24,7 @@ double askBudget()
     while(confirm !=1);
 
     std::ofstream file("expense_log.txt");
-    file<<"BUDGET: "<<budget<<std::endl; //reading budget to the file.
-
+    file<<"MONTHLY BUDGET: "<<budget<<std::endl; //reading budget to the file.
     std::cout<<"-----------------"<<'\n';
     return budget;
 }
