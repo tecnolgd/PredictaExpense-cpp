@@ -1,12 +1,15 @@
 #include <iostream>
 #include <string>
+#include <vector>
 #include "head.hpp"
 
 int main(){
     int choice=0,test=1,ch;
     int session_counter =0;
     
-    double budget,tot_exp;
+    double budget;
+    double tot_exp,save;
+   
     bool x=true;
     
     do{ 
@@ -21,15 +24,15 @@ int main(){
         switch(choice){
             case 1: budget= askBudget();
                 break;
-            case 2: tot_exp=dailyExpLog(session_counter);
+            case 2:tot_exp=dailyExpLog(session_counter);
                 break;
-            case 3: warning(budget,tot_exp);
+            case 3:save=warning(budget,tot_exp);
                 break;
             case 4: weekLog(session_counter);
                 break;
             case 5:dispHistory();
                 break;
-            case 6: insights();
+            case 6: insights(save,budget);
                 break;
             case 7: x=false;
                 break;
