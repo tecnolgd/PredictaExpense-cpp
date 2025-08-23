@@ -1,3 +1,4 @@
+//This code computes the daily logging mechanism and stores data in a text file.
 #include "head.hpp"
 #include <iostream>
 #include <string>
@@ -6,9 +7,9 @@
 
 double dailyExpLog(int &session_counter)
 {
-    std::vector <std::string> source;
+    std::vector <std::string> source; //vector to store source name (source name= name of the item purchased)
     int log_id=0,i=1;
-    std::vector <double> cost;
+    std::vector <double> cost; //vector to store cost of each source
     double total_cost=0.0,expense;
     std::cout<<"  ** DAILY LOG **  \n";
     std::cout<<"-----------------"<<'\n';
