@@ -10,7 +10,7 @@ void insights(double saving,double budget,int days){
         std::cout<<"Predicted savings for the month :"<<saving<<std::endl;
     }
     else{
-        std::cout<<"Projected overshoot :"<<saving<<std::endl;
+        std::cout<<"Projected overshoot :"<<abs(saving)<<std::endl;
     }
     double target,diff;
     std::cout<<"Enter target saving : ";
