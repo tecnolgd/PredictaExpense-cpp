@@ -1,3 +1,4 @@
+// Header file to include all function declarations involved in the application.
 #ifndef FUNCTIONS_H
 #define FUNCTIONS_H
 
