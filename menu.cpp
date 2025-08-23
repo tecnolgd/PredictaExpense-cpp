@@ -1,3 +1,4 @@
+//This code displays the menu bar for the application.
 #include "head.hpp"
 #include <iostream>
 
