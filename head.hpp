@@ -10,5 +10,6 @@ double warning(double bud,double exp,int  day_pass);
 void dispHistory();
 void insights(double saving,double budget,int days);
 void menu();
+int logCounter();
 
 #endif
