@@ -36,19 +36,31 @@ double dailyExpLog(int &session_counter)
     std::ofstream file("expense_log.txt",std::ios::app);
     if(file.is_open()){
         file<<"___________________________\n";
-        for(int i=0;i<source.size();i++){
+        for(size_t i=0;i<source.size();i++){
             file<<i+1<<") "<<source[i]<<"---> "<<cost[i]<<std::endl; //reding input to the file.
         }
-        //file<<"_ _ _ _ _ _ _________ _ _ _ _ _ _ \n";
-        session_counter ++;
+        
+        
+        session_counter++;
+        std::ofstream log_file("counter.txt");
+        if(log_file.is_open()){
+            log_file<<session_counter;
+        }
+        log_file.close();
         if(session_counter==8){
             session_counter=0;
+            std::ofstream log_file("counter.txt");
+            if(log_file.is_open()){
+                log_file<<session_counter;
+            }
+            log_file.close();
         }
+    
         file.close();
     } else{
         std::cout<<"File not writable !\n";
     }
-    for(int i=0;i<cost.size();i++){
+    for(size_t i=0;i<cost.size();i++){
         total_cost+=cost[i];
     }
     return total_cost;
