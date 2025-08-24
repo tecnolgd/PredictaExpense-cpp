@@ -5,8 +5,8 @@
 #include "head.hpp"
 
 int main(){
-    int choice=0,test=1,ch;
-    int session_counter =0;
+    int choice=0,test=1;
+    int session_counter =logCounter();
     int day_count=0;
     double budget;
     double tot_exp,save,cumulat_exp=0.0;
