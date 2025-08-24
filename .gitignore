@@ -2,5 +2,6 @@
 *.log
 *.tmp
 *.out
-*expense.txt
+*expense_log.txt
+*counter.txt
 .vscode/
