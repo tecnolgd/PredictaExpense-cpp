@@ -1,3 +1,5 @@
+![MIT License](https://img.shields.io/github/license/tecnolgd/PredictaExpense-cpp?style=flat)
+![Static Badge](https://img.shields.io/badge/Open-Source-blue)
 
 
 # PREDICTA EXPENSE💰🔮
@@ -6,9 +8,9 @@
  ## Features ⚙️
  * Track daily expenses with ease.
  * Predict savings based on user spending patterns w.r.t monthly income/budget.
- * Display weekly expense log & all-time expense log 
+ * Display weekly expense log & all-time expense log.
  * Provide insights and strategies including warnings and useful data.
- * Multifile modular design (C++ project structure)
+ * Multifile modular design (C++ project structure).
  * Fast, menu-driven interface for smooth navigation.
  ---
  ## Tech stack 🚀🚀
@@ -33,9 +35,26 @@
  7) The user can EXIT the application anytime once a particular function is computed.
  ---
  ## How to RUN ?🔛
+ 1) Clone this repo
+  git clone https://github.com/tecnolgd/repo-name.git
+cd PredictaExpense
+2) Run with  
+    * ### Makefile (Recommended)
+        1. Open terminal in the **Predicta** folder. 
+        2. Run ***mingw32-make***(for windows) / ***make***(for linux/ios).
+        3. An executabe file called ***predicta.exe*** / ***predicta.o*** would be formed.
+        4. Run the command ***predicta.exe***(windows) or ***./predicta***(linux/ios) in the terminal.  
+        *(Note: Run ***mingw32-make clean*** or ***make clean*** to clear object files based on OS)*
+        5. The application will open for user interaction.
+        ---
 
-
-
+    * ### g++(Manual way)     
+        1. Open the terminal in the **Predicta** folder.
+        2. Run ***g++ main.cpp menu.cpp dailyLog.cpp weekLog.cpp history.cpp insights.cpp userBudget.cpp warning.cpp -o predicta***
+        3. An executable file called ***predicta.exe*** would be formed.
+        4. Run the command ***predicta.exe***(windows) or ***./predicta***(linux/ios) in the terminal. (same as Makefile step-4).
+        5. The application will open for user interaction.
+        
  ---
  ## Future upgrades 🛰️🛰️
  * Date and time stamps for each session of expense logging.
