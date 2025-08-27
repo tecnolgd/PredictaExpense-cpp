@@ -1,5 +1,5 @@
-![MIT License](https://img.shields.io/github/license/tecnolgd/PredictaExpense-cpp?style=flat)
-![MIT License](https://img.shields.io/github/license/tecnolgd/PredictaExpense-cpp?style=flat)
+
+![MIT License](https://img.shields.io/github/license/tecnolgd/PredictaExpense-cpp.svg)
 
 ![Static Badge](https://img.shields.io/badge/Open-Source-blue)
 
