@@ -37,7 +37,7 @@
  ---
  ## How to RUN ?🔛
  1) Clone this repo
-  git clone https://github.com/tecnolgd/repo-name.git
+  git clone https://github.com/tecnolgd/PredictaExpense.git
 cd PredictaExpense
 2) Run with  
     * ### Makefile (Recommended)
