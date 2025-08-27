@@ -36,9 +36,9 @@
  *(Note: The files to store expenses and counter logs will be automatically created when the application is run and the fuctions concerning them are encountered.)*
  ---
  ## How to RUN ?🔛
- 1) Clone this repo
-  git clone https://github.com/tecnolgd/PredictaExpense-cpp.git
-cd PredictaExpense
+ 1) Clone this repo.
+      *  *git clone https://github.com/tecnolgd/PredictaExpense-cpp.git*
+      *  *cd PredictaExpense*
 2) Run with  
     * ### Makefile (Recommended)
         1. Open terminal in the **Predicta** folder. 
