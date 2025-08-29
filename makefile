@@ -1,3 +1,4 @@
+# makefile for efficient code compilation and execution.
 # Compiler
 CXX = g++
 CXXFLAGS = -Wall -std=c++17
