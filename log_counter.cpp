@@ -1,3 +1,4 @@
+//This code computes the counter logic for  weekly report generation.
 #include <fstream>
 #include <iostream>
 #include "head.hpp"
