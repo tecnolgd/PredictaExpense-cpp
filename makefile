@@ -1,4 +1,4 @@
-# makefile for efficient code compilation and execution.
+# makefile for modular code compilation and execution.
 # Compiler
 CXX = g++
 CXXFLAGS = -Wall -std=c++17
