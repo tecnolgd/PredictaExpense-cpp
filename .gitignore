@@ -1,3 +1,5 @@
+# gitignore file
+
 *.exe
 *.log
 *.tmp
