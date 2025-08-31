@@ -1,4 +1,4 @@
-// This code does the insights and strategies computation.
+// This code computes the insights and strategies.
 #include "head.hpp"
 #include <iostream>
 
