@@ -5,7 +5,7 @@
 
 
 # PREDICTA EXPENSE💰🔮
-### An intelligent expense & savings tracker with predictive insights — built to help you control today and forecast tomorrow.Utilises the logic of savings prediction to give real-time insights on month-end savings and useful data.
+### An intelligent console based expense & savings tracker with predictive insights — built to help you control today and forecast tomorrow.Utilises the logic of savings prediction to give real-time insights on month-end savings and useful data.
  ---
  ## Features ⚙️
  * Track daily expenses with ease.
