@@ -14,7 +14,6 @@ double dailyExpLog(int &session_counter)
     std::cout<<"  ** DAILY LOG **  \n";
     std::cout<<"-----------------"<<'\n';
     std::cout<<"Please enter expense details :\n";
-    
     std::cout<<"( NOTE: Details must include date,expense source and individual expense )\n";
 
     while(log_id == 0)
