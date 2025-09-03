@@ -11,5 +11,4 @@ void dispHistory();
 void insights(double saving,double budget,int days);
 void menu();
 int logCounter();
-
 #endif
