@@ -57,7 +57,7 @@
         
  ---
  ## Homepage output🖼️
-  ![Sample Output](output_screenshots\menu_output.png)
+  ![Sample Output](output_img\menu_img.png)
  ---
  
  ## Future upgrades 🛰️🛰️
