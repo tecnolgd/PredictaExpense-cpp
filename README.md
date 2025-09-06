@@ -58,6 +58,8 @@
  ---
  ## Homepage output🖼️
   ![Sample Output](output_screenshots\menu_output.png)
+ ---
+ 
  ## Future upgrades 🛰️🛰️
  * Date and time stamps for each session of expense logging.
  * More insights like MAX and MIN expense item display.
