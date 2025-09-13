@@ -2,7 +2,8 @@
 ![Static Badge](https://img.shields.io/badge/Open-Source-blue)
 
 # PREDICTA EXPENSE💰🔮
-### An intelligent console based expense & savings tracker with predictive insights — built to help you control today and forecast future savings.Utilises the logic of savings prediction to give current-day insights on month-end savings and other useful data.
+### An intelligent console based expense & savings tracker with predictive insights — built to help you control today and forecast future savings.    
+### Utilises the logic of savings prediction to give current-day insights on month-end savings and other useful data.
  ---
  ## Features ⚙️
  * Track daily expenses with ease.
