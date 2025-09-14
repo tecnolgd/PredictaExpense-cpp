@@ -53,7 +53,7 @@
         1. Open the terminal in the **Predicta** folder.
         2. Run ***g++ main.cpp menu.cpp dailyLog.cpp weekLog.cpp history.cpp insights.cpp userBudget.cpp warning.cpp -o predicta***
         3. An executable file called ***predicta.exe*** would be formed.
-        4. Run the command ***predicta.exe***(windows) or ***./predicta***(linux/ios) in the terminal. (same as Makefile step-4).
+        4. Run the command ***predicta.exe***(windows) or ***./predicta***(linux/ios) in the terminal. (same as Makefile step-d).
         5. The application will open for user interaction.
         
  ---
