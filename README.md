@@ -2,7 +2,8 @@
 ![Static Badge](https://img.shields.io/badge/Open-Source-blue)
 
 # PREDICTA EXPENSE💰🔮
-### An intelligent console based expense & savings tracker with predictive insights — built to help you control today and forecast future savings.Utilises the logic of savings prediction to give current-day insights on month-end savings and other useful data.
+### An intelligent console based expense & savings tracker with predictive insights — built to help you control today and forecast future savings.    
+### Utilises the logic of savings prediction to give current-day insights on month-end savings and other useful data.
  ---
  ## Features ⚙️
  * Track daily expenses with ease.
@@ -52,7 +53,7 @@
         1. Open the terminal in the **Predicta** folder.
         2. Run ***g++ main.cpp menu.cpp dailyLog.cpp weekLog.cpp history.cpp insights.cpp userBudget.cpp warning.cpp -o predicta***
         3. An executable file called ***predicta.exe*** would be formed.
-        4. Run the command ***predicta.exe***(windows) or ***./predicta***(linux/ios) in the terminal. (same as Makefile step-4).
+        4. Run the command ***predicta.exe***(windows) or ***./predicta***(linux/ios) in the terminal. (same as Makefile step-d).
         5. The application will open for user interaction.
         
  ---
