@@ -78,6 +78,9 @@
 *  If this repository added value to your learning or dev flow ,consider dropping a ⭐or hitting ***fork***.  
 * Open for recieving feedback and knowledge exchange.
  ---
+ ## Code of Conduct📜
+ ### [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
+ ---
  ### Author  
   ***tecnolgd***
 
