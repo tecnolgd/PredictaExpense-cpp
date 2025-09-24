@@ -6,7 +6,7 @@
 
 int main(){
     int choice=0,test=1;
-    int session_counter =logCounter();
+    int session_counter =logCounter();//to log the day-count at the time of execution
     int day_count=0;
     double budget;
     double tot_exp,save,cumulat_exp=0.0;
