@@ -37,23 +37,24 @@
  ---
  ## How to RUN ?🔛
  1) Clone this repo.
-      *  *git clone https://github.com/tecnolgd/PredictaExpense-cpp.git*
-      *  *cd PredictaExpense*
+    * *`git clone https://github.com/tecnolgd/PredictaExpense-cpp.git`*
+    * *`cd PredictaExpense`*
+      
 2) Run with  
     * ### Makefile (Recommended)
         1. Open terminal in the **Predicta** folder. 
-        2. Run ***mingw32-make***(for windows) / ***make***(for linux/ios).
+        2. Run ***`mingw32-make`***(for windows) / ***`make`***(for linux/ios).
         3. An executabe file called ***predicta.exe*** / ***predicta.o*** would be formed.
-        4. Run the command ***predicta.exe***(windows) or ***./predicta***(linux/ios) in the terminal.  
-        *(Note: Run ***mingw32-make clean*** or ***make clean*** to clear object files based on OS)*
+        4. Run the command ***`predicta.exe`***(windows) or ***`./predicta`***(linux/ios) in the terminal.  
+        *(Note: Run ***`mingw32-make clean`*** or ***`make clean`*** to clear object files based on OS)*
         5. The application will open for user interaction.
         ---
 
     * ### g++(Manual way)     
         1. Open the terminal in the **Predicta** folder.
-        2. Run ***g++ main.cpp menu.cpp dailyLog.cpp weekLog.cpp history.cpp insights.cpp userBudget.cpp warning.cpp -o predicta***
+        2. Run ***`g++ main.cpp menu.cpp dailyLog.cpp weekLog.cpp history.cpp insights.cpp userBudget.cpp warning.cpp -o predicta`***
         3. An executable file called ***predicta.exe*** would be formed.
-        4. Run the command ***predicta.exe***(windows) or ***./predicta***(linux/ios) in the terminal. (same as Makefile step-d).
+        4. Run the command ***`predicta.exe`***(windows) or ***`./predicta`***(linux/ios) in the terminal. (same as Makefile step-d).
         5. The application will open for user interaction.
         
  ---
