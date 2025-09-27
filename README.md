@@ -82,8 +82,8 @@
  ### README add-ons *(Coming soon)*    
 - [x] Sample screenshots for i/o.
 
-- [ ] Improved comment readability.
-- [ ] Sample examples and test cases with solutions.
+- [ ] Application Flowchart
+- [ ] Coming soon!
  ---
  ## Value this repo ? ✨
 *  If this repository added value to your learning or dev flow ,consider dropping a ⭐or hitting ***fork***.  
