@@ -62,10 +62,10 @@
 * [Menu BAR](output_img/menu_img.png)    
 * [User BUDGET](output_img/Budget.png)
 * [Add EXPENSE](output_img/Expense_log.png)
-* [WARNINGS](output_img/warnings_2.png)
+* [WARNINGS](output_img/warnings_3.png)
 * [Weekly LOG](output_img/week_log.png)
 * [All time LOG History](output_img/All_time_log.png)
-* [Insights AND Strategies](output_img/insights_2.png)
+* [Insights AND Strategies](output_img/insights_3.png)
 * [EXIT](output_img/exit.png)
  ---
  
