@@ -1,8 +1,9 @@
 ![MIT License](https://img.shields.io/github/license/tecnolgd/PredictaExpense-cpp.svg)
 ![Static Badge](https://img.shields.io/badge/Open-Source-blue)
+![Static Badge](https://img.shields.io/badge/Interface-CLI-white)
 
 # PREDICTA EXPENSE💰🔮
-### An intelligent console based expense & savings tracker with predictive insights — built to help you control today and forecast future savings.    
+### A logical CLI-based expense & savings tracker with predictive insights — built to help you control today and forecast future savings.    
 ### Utilises the logic of savings prediction to give current-day insights on month-end savings and other useful data.
  ---
  ## Features ⚙️
@@ -56,8 +57,7 @@
         3. An executable file called ***predicta.exe*** would be formed.
         4. Run the command ***`predicta.exe`***(windows) or ***`./predicta`***(linux/ios) in the terminal. (same as Makefile step-d).
         5. The application will open for user interaction.
-        
- ---
+---
  ## Sample Outputs🖼️
  *(Note: The Output screenshots are based on sample data like BUDGET=12000, Expense for the day 1=450.*    
  *The Weekly log report is generated when the day=7 i.e the log counter sets to 7. Later the log counter resets to 0 for the next week logging.)*
@@ -79,10 +79,10 @@
  * Flexible budget modification.
  * More user-friendly UI and UX.
  ---
- ### README add-ons *(Coming soon)*    
-- [x] Sample screenshots for i/o.
-
+ ### README add-ons ➕   
+- [x] Sample screenshots for i/o
 - [ ] Application Flowchart
+- [ ] Program flexibility patches
 - [ ] Coming soon!
  ---
  ## Value this repo ? ✨
@@ -92,8 +92,8 @@
  ## Code of Conduct📜
  ### [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
  ---
- ### Author  
-  ***tecnolgd***
+ ### Author     
+ ***tecnolgd***
 
  
 
