@@ -58,8 +58,15 @@
         5. The application will open for user interaction.
         
  ---
- ## Homepage output🖼️
-  ![Sample Output](output_img/menu_img.png)
+ ## Sample Outputs🖼️
+* [Menu BAR](output_img/menu_img.png)    
+* [User BUDGET](output_img\Budget.png)
+* [Add EXPENSE](\output_img\Expense_log.png)
+* [WARNINGS](output_img\warnings_2.png)
+* [Weekly LOG](output_img\week_log.png)
+* [All time LOG History](output_img\All_time_log.png)
+* [Insights AND Strategies](output_img\insights_2.png)
+* [EXIT](output_img\exit.png)
  ---
  
  ## Future upgrades 🛰️🛰️
