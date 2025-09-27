@@ -17,6 +17,7 @@ void insights(double saving,double budget,int days){
     std::cin>>target;
     diff=target-saving; //difference b/w target and savings
     if(target>saving){
+        std::cout<<"----------------"<<std::endl;
         std::cout<<"* STRATEGIES *\n";
         std::cout<<"You are short of "<<diff<<" to reach you savings goal.."<<std::endl;
         std::cout<<"You need to save "<< diff/(30-days)<<" per day to stay on track."<<std::endl; // savings plan for the remaining days
