@@ -6,6 +6,7 @@
 double askBudget();
 double dailyExpLog(int &session_counter);
 void weekLog(int session_counter);
+double calc_save(double bud,double exp,int day_pass);
 double warning(double bud,double exp,int  day_pass);
 void dispHistory();
 void insights(double saving,double budget,int days);
