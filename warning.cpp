@@ -2,10 +2,14 @@
 #include "head.hpp"
 #include <iostream>
 
-double warning(double bud,double exp,int day_pass) //day_pass = no of days passed
+double calc_save(double bud,double exp,int day_pass) //day_pass = no of days passed
 {  
     double avg_save=exp/day_pass;
     double predict_save = bud-(avg_save*30.5); //savings prediction logic
+    return predict_save;
+}
+    double warning(double bud,double exp,int day_pass){
+    double predict_save=calc_save(bud,exp,day_pass);
     std::cout<<"____________________________"<<std::endl;
     if(predict_save<0.0){
         std::cout<<"Warning : You are overspending ! Projected to overshoot the budget by "<<abs(predict_save)<<" this month."<<std::endl;
