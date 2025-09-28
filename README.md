@@ -1,6 +1,9 @@
 ![MIT License](https://img.shields.io/github/license/tecnolgd/PredictaExpense-cpp.svg)
-![Static Badge](https://img.shields.io/badge/Open-Source-blue)
-![Static Badge](https://img.shields.io/badge/Interface-CLI-white)
+![Static Badge](https://img.shields.io/badge/tools-Open_Source-blue)
+![Static Badge](https://img.shields.io/badge/interface-CLI-white)
+![Static Badge](https://img.shields.io/badge/version-1.1-red)
+
+
 
 # PREDICTA EXPENSE💰🔮
 ### A logical CLI-based expense & savings tracker with predictive insights — built to help you control today and forecast future savings.    
@@ -82,7 +85,6 @@
  ### README add-ons ➕   
 - [x] Sample screenshots for i/o
 - [ ] Application Flowchart
-- [ ] Program flexibility patches
 - [ ] Coming soon!
  ---
  ## Value this repo ? ✨
