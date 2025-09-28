@@ -27,6 +27,8 @@ int main(){
             case 2: tot_exp=dailyExpLog(session_counter);
                     cumulat_exp +=tot_exp;  //to caculate cumulative total costs over the passed days
                     day_count++;
+                    save=calc_save(budget,cumulat_exp,day_count); //for directly choosing insights option before warnings options
+                    
                     break;
             case 3: save=warning(budget,cumulat_exp,day_count);
                     break;
