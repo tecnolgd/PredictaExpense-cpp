@@ -61,38 +61,9 @@
         4. Run the command ***`predicta.exe`***(windows) or ***`./predicta`***(linux/ios) in the terminal. (same as Makefile step-d).
         5. The application will open for user interaction.
 ---
-
-graph TD   
-
-    A[Start] --> B(Initialize Application);
-    B --> C{Check for Expense & Log Files};
-    C -- Files Exist --> E(Load Expense/Budget Data from Files);
-    C -- Files Missing --> D(Create Log Files);
-    D --> E;
-    E --> F[Display Main Menu: Options include: Log, History, Budget, Insights, Warnings, Exit];
-    F --> G[Get User Menu Choice];
-    
-    G --> H{Choice == Exit?};
-    
-    H -- Yes --> Q(Save All Updated Data to Files);
-    Q --> R[End];
-    
-    H -- No --> I{Choice Processing};
-    
-    I -- Log Expense --> J(dailyLog.cpp / weekLog.cpp);
-    I -- View History --> K(history.cpp);
-    I -- Set Budget --> L(userBudget.cpp);
-    I -- View Insights/Warnings --> M(insights.cpp / warning.cpp);
-    I -- Invalid Choice --> N[Display Error Message];
-    
-    J --> P;
-    K --> P;
-    L --> P;
-    M --> P;
-    N --> P;
-    
-    P(Return to Main Menu);
-    P --> F;
+## Flowchart⚛️
+### [System Flowchart](output_img\Flowchart_1.png)
+---
  ## Sample Outputs🖼️
  *(Note: The Output screenshots are based on sample data like BUDGET=12000, Expense for the day 1=450.*    
  *The Weekly log report is generated when the day=7 i.e the log counter sets to 7. Later the log counter resets to 0 for the next week logging.)*
