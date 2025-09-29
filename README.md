@@ -61,13 +61,14 @@
         4. Run the command ***`predicta.exe`***(windows) or ***`./predicta`***(linux/ios) in the terminal. (same as Makefile step-d).
         5. The application will open for user interaction.
 ---
-graph TD
+
+graph TD   
+
     A[Start] --> B(Initialize Application);
     B --> C{Check for Expense & Log Files};
     C -- Files Exist --> E(Load Expense/Budget Data from Files);
     C -- Files Missing --> D(Create Log Files);
     D --> E;
-    
     E --> F[Display Main Menu: Options include: Log, History, Budget, Insights, Warnings, Exit];
     F --> G[Get User Menu Choice];
     
