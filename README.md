@@ -62,7 +62,7 @@
         5. The application will open for user interaction.
 ---
 ## Flowchart⚛️
-### [System Flowchart](output_img\Flowchart_1.png)
+### [System Flowchart](output_img/Flowchart_1.png)
 ---
  ## Sample Outputs🖼️
  *(Note: The Output screenshots are based on sample data like BUDGET=12000, Expense for the day 1=450.*    
