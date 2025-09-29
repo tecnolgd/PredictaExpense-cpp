@@ -87,7 +87,7 @@
  ---
  ### README add-ons ➕   
 - [x] Sample screenshots for i/o
-- [ ] Application Flowchart
+- [x] Application Flowchart
 - [ ] Coming soon!
  ---
  ## Value this repo ? ✨
