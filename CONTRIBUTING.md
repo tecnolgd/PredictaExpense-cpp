@@ -10,6 +10,8 @@
 2. **Clone your fork**  
    ```
    git clone https://github.com/tecnolgd/PredictaExpense-cpp.git
+   ```
+   ```
    cd PredictaExpense-cpp
    ```
 
@@ -29,7 +31,9 @@
 
 6. **Commit your changes**  
    ```
-   git add .
+   git add . 
+   ```
+   ```   
    git commit -m "Describe your changes"
    ```
 
