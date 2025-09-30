@@ -30,7 +30,7 @@
  * Multi-file compilation
  ---
  ## How it works ❓
- 1) Enter monthly budget/income once at the start of the application.
+ 1) Enter monthly budget/income **once** at the start of the application.
  2) Select the "Add EXPENSE" option and enter expenses with respective costs.
  3) The weekly report can be viewed only when 7 days of expense logging is done.
  4) The all-time history can be viewed anytime.
@@ -62,7 +62,7 @@
         5. The application will open for user interaction.
 ---
 ## Flowchart⚛️
-### [System Flowchart](output_img/Flowchart_1.png)
+### [Predicta FLOW](output_img/Flowchart_1.png)
 ---
  ## Sample Outputs🖼️
  *(Note: The Output screenshots are based on sample data like BUDGET=12000, Expense for the day 1=450.*    
