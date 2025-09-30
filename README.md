@@ -87,7 +87,8 @@
  ---
  ### README add-ons ➕   
 - [x] Sample screenshots for i/o
-- [x] Application Flowchart
+- [x] Predicta Flowchart
+- [x] Contribution Guildelines
 - [ ] Coming soon!
  ---
  ## Value this repo ? ✨
