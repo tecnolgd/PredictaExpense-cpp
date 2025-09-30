@@ -44,24 +44,24 @@
 
 8. **Open a Pull Request**  
    - Go to the original repository.
-   - Click "Compare & pull request".
+   - Click "**Compare & pull request**".
    - Fill in the PR template and submit.
 
 ## Code Style
 
-- Use clear, universally descriptive variable and function names.
-- Keep functions focused and modular.
-- Use consistent indentation (4 spaces).
+- Use clear, **universally descriptive** variable and function names.
+- Keep functions focused and **modular**.
+- Use **consistent** indentation (4 spaces).
 - Comment complex logic.
 
 ## Reporting Issues
 
-- Use the [Issues](https://github.com/tecnolgd/PredictaExpense-cpp/issues) tab to report bugs or suggest features.
+- Use the [**Issues**](https://github.com/tecnolgd/PredictaExpense-cpp/issues) tab to report bugs or suggest features.
 - Provide clear steps to reproduce bugs.
 
 ## Code of Conduct
 
-Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md).
+Please read and follow our [**Code of Conduct**](CODE_OF_CONDUCT.md).
 
 ---
 Thank you for helping make PredictaExpense-cpp better! ✨
