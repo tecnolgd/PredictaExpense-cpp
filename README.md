@@ -85,7 +85,7 @@
  * Flexible budget modification.
  * More user-friendly UI and UX.
  
- ### README add-ons ➕   
+ ## README add-ons ➕   
 - [x] Sample screenshots for i/o
 - [x] Predicta Flowchart
 - [x] Contribution Guildelines
