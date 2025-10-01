@@ -16,19 +16,19 @@
  * Provide insights and strategies including warnings and useful data.
  * Multifile modular design (C++ project structure).
  * Fast, menu-driven interface for smooth navigation.
- ---
+ 
  ## Tech stack 🚀🚀
  * Language: C++
  * Paradigm: Modular programming with file separation.
  * Core concepts: File handling, menu systems, predictive logic, conditions and iterations.( Slight pointer concepts ).
  * Interface: CLI (command-line interface).
- ---
+ 
  ## Novel concepts practiced 🆕
  * Vectors
  * Pointers (pass by reference/address)
  * File handling
  * Multi-file compilation
- ---
+ 
  ## How it works ❓
  1) Enter monthly budget/income **once** at the start of the application.
  2) Select the "Add EXPENSE" option and enter expenses with respective costs.
@@ -38,7 +38,7 @@
  6) The insights and strategies can be viewed anytime and useful data can be interpreted.
  7) The user can EXIT the application anytime once a particular function is computed.  
  *(Note: The files to store expenses and counter logs will be automatically created when the application is run and the fuctions concerning them are encountered.)*
- ---
+ 
  ## How to RUN ?🔛
  1) Clone this repo.
     * *`git clone https://github.com/tecnolgd/PredictaExpense-cpp.git`*
@@ -60,10 +60,10 @@
         3. An executable file called ***predicta.exe*** would be formed.
         4. Run the command ***`predicta.exe`***(windows) or ***`./predicta`***(linux/ios) in the terminal. (same as Makefile step-d).
         5. The application will open for user interaction.
----
+
 ## Flowchart⚛️
 ### [Predicta FLOW](output_img/Flowchart_1.png)
----
+
  ## Sample Outputs🖼️
  *(Note: The Output screenshots are based on sample data like BUDGET=12000, Expense for the day 1=450.*    
  *The Weekly log report is generated when the day=7 i.e the log counter sets to 7. Later the log counter resets to 0 for the next week logging.)*
@@ -75,7 +75,7 @@
 * [All time LOG History](output_img/All_time_log.png)
 * [Insights AND Strategies](output_img/insights_3.png)
 * [EXIT](output_img/exit.png)
- ---
+ 
  
  ## Future upgrades 🛰️🛰️
  * Date and time stamps for each session of expense logging.
@@ -84,17 +84,17 @@
  * CLI animation(ncurses or ASCII effects)
  * Flexible budget modification.
  * More user-friendly UI and UX.
- ---
+ 
  ### README add-ons ➕   
 - [x] Sample screenshots for i/o
 - [x] Predicta Flowchart
 - [x] Contribution Guildelines
 - [ ] Coming soon!
- ---
+ 
  ## Value this repo ? ✨
 *  If this repository added value to your learning or dev flow ,consider dropping a ⭐or hitting ***fork***.  
 * Open for recieving feedback and knowledge exchange.
- ---
+ 
  ## Contributing Guidelines📜
  Please read and follow our [Contibuting Guidelines](CONTRIBUTING.md)
  ---
