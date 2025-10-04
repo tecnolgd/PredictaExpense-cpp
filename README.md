@@ -41,9 +41,12 @@
  
  ## How to RUN ?🔛
  1) Clone this repo.
- ```git clone https://github.com/tecnolgd/PredictaExpense-cpp.git
+ 
+```bash
+ git clone https://github.com/  tecnolgd/PredictaExpense-cpp.git
 ```
-```cd PredictaExpense
+```bash
+cd PredictaExpense   //to open the directory
 ```
       
 2) Run with  
