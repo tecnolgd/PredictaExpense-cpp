@@ -41,15 +41,14 @@
  
  ## How to RUN ?🔛
  1) Clone this repo.
- 
-```bash(shell)
+```bash
 git clone https://github.com/tecnolgd/PredictaExpense-cpp.git
 ```
 ```bash
 cd PredictaExpense  
 ```
       
-2) Run with  
+ 2) Run with  
     * ### Makefile (Recommended)
         1. Open terminal in the **Predicta** folder. 
         2. Run ***`mingw32-make`***(for windows) / ***`make`***(for linux/ios).
