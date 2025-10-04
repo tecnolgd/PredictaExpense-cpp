@@ -6,8 +6,8 @@
 
 
 # PREDICTA EXPENSE💰🔮
-### A logical CLI-based expense & savings tracker with predictive insights — built to help you control today and forecast future savings.    
-### Utilises the logic of savings prediction to give current-day insights on month-end savings and other useful data.
+### A logical CLI-based expense tracker with predictive savings insights — built to help you control today and forecast future savings.    
+### Utilizes the logic of savings prediction to give current-day insights on month-end savings and other useful data.
  ---
  ## Features ⚙️
  * Track daily expenses with ease.
@@ -18,10 +18,10 @@
  * Fast, menu-driven interface for smooth navigation.
  
  ## Tech stack 🚀🚀
- * Language: C++
- * Paradigm: Modular programming with file separation.
- * Core concepts: File handling, menu systems, predictive logic, conditions and iterations.( Slight pointer concepts ).
- * Interface: CLI (command-line interface).
+ * Language: **C++**
+ * Paradigm: **Modular** programming with file separation.
+ * Core concepts: File handling, menu systems, predictive logic, conditions and iterations.( Soft pointer concepts ).
+ * Interface: **CLI**(command-line interface).
  
  ## Novel concepts practiced 🆕
  * Vectors
@@ -31,18 +31,20 @@
  
  ## How it works ❓
  1) Enter monthly budget/income **once** at the start of the application.
- 2) Select the "Add EXPENSE" option and enter expenses with respective costs.
- 3) The weekly report can be viewed only when 7 days of expense logging is done.
- 4) The all-time history can be viewed anytime.
- 5) Select the "WARNINGS" option from the menu and view current day warnings based on history of expense logging.
- 6) The insights and strategies can be viewed anytime and useful data can be interpreted.
- 7) The user can EXIT the application anytime once a particular function is computed.  
+ 2) Select the "*Add EXPENSE*" option and enter expenses with respective costs.
+ 3) The *Weekly report* can be viewed only when 7 days of expense logging is done.
+ 4) The *All-time history* can be viewed anytime.
+ 5) Select the "*WARNINGS*" option from the menu and view current day warnings based on history of expense logging.
+ 6) The *Insights and Strategies* can be viewed anytime and useful data can be interpreted.
+ 7) The user can *EXIT* the application anytime once a particular function is computed.  
  *(Note: The files to store expenses and counter logs will be automatically created when the application is run and the fuctions concerning them are encountered.)*
  
  ## How to RUN ?🔛
  1) Clone this repo.
-    * *`git clone https://github.com/tecnolgd/PredictaExpense-cpp.git`*
-    * *`cd PredictaExpense`*
+ ```git clone https://github.com/tecnolgd/PredictaExpense-cpp.git
+```
+```cd PredictaExpense
+```
       
 2) Run with  
     * ### Makefile (Recommended)
