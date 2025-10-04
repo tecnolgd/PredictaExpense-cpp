@@ -43,7 +43,7 @@
  1) Clone this repo.
  
 ```bash
- git clone https://github.com/  tecnolgd/PredictaExpense-cpp.git
+git clone https://github.com/tecnolgd/PredictaExpense-cpp.git
 ```
 ```bash
 cd PredictaExpense   //to open the directory
