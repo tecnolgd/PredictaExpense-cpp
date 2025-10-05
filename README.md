@@ -49,7 +49,7 @@ cd PredictaExpense
 ```
       
  2) Run with  
-    * ### Makefile (Recommended)
+    * ### Makefile (*Recommended*)
         1. Open terminal in the **Predicta** folder. 
         2. Run ***`mingw32-make`***(for windows) / ***`make`***(for linux/ios).
         3. An executabe file called ***predicta.exe*** / ***predicta.o*** would be formed.
@@ -58,7 +58,7 @@ cd PredictaExpense
         5. The application will open for user interaction.
         ---
 
-    * ### g++(Manual way)     
+    * ### g++(*Manual way / for beginners*)     
         1. Open the terminal in the **Predicta** folder.
         2. Run ***`g++ main.cpp menu.cpp dailyLog.cpp weekLog.cpp history.cpp insights.cpp userBudget.cpp warning.cpp -o predicta`***
         3. An executable file called ***predicta.exe*** would be formed.
@@ -66,7 +66,7 @@ cd PredictaExpense
         5. The application will open for user interaction.
 
 ## Flowchart⚛️
-### [Predicta FLOW](output_img/Flowchart_1.png)
+### [Predicta **FLOW**](output_img/Flowchart_1.png)
 
  ## Sample Outputs🖼️
  *(Note: The Output screenshots are based on sample data like BUDGET=12000, Expense for the day 1=450.*    
