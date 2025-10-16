@@ -8,7 +8,7 @@
 # PREDICTA EXPENSE💰🔮
 ### A logical CLI-based **expense** tracker with **predictive** savings insights — built to help you control today and forecast future savings.    
 ### Utilizes the logic of savings prediction to give current-day insights on month-end savings and other useful data.
- ---
+ 
  ## Features ⚙️
  * Track daily expenses with ease.
  * Predict savings based on user spending patterns w.r.t monthly income/budget.
@@ -60,7 +60,10 @@ cd PredictaExpense
 
     * ### g++(*Manual way / for beginners*)     
         1. Open the terminal in the **Predicta** folder.
-        2. Run ***`g++ main.cpp menu.cpp dailyLog.cpp weekLog.cpp history.cpp insights.cpp userBudget.cpp warning.cpp -o predicta`***
+        2. Run
+        ```
+        g++ main.cpp menu.cpp dailyLog.cpp weekLog.cpp history.cpp insights.cpp userBudget.cpp warning.cpp -o predicta
+        ```
         3. An executable file called ***predicta.exe*** would be formed.
         4. Run the command ***`predicta.exe`***(windows) or ***`./predicta`***(linux/ios) in the terminal. (same as Makefile step-d).
         5. The application will open for user interaction.
@@ -93,6 +96,7 @@ cd PredictaExpense
 - [x] Sample screenshots for i/o
 - [x] Predicta Flowchart
 - [x] Contribution Guildelines
+- [ ] **Backend development**
 - [ ] Coming soon!
  
  ## Value this repo ? ✨
