@@ -3,8 +3,6 @@
 ![Static Badge](https://img.shields.io/badge/interface-CLI-white)
 ![Static Badge](https://img.shields.io/badge/version-1.1-red)
 
-
-
 # PREDICTA EXPENSE💰🔮
 ### A logical CLI-based **expense** tracker with **predictive** savings insights — built to help you control today and forecast future savings.    
 ### Utilizes the logic of savings prediction to give current-day insights on month-end savings and other useful data.
