@@ -59,7 +59,7 @@ cd PredictaExpense
     * ### g++(*Manual way / for beginners*)     
         1. Open the terminal in the **Predicta** folder.
         2. Run
-        ```
+        ```bash
         g++ main.cpp menu.cpp dailyLog.cpp weekLog.cpp history.cpp insights.cpp userBudget.cpp warning.cpp -o predicta
         ```
         3. An executable file called ***predicta.exe*** would be formed.
