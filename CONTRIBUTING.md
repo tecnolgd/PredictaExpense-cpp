@@ -21,13 +21,13 @@
    ```
 
 4. **Make your changes**  
-   - Follow the existing code style.
-   - Add comments where necessary.
-   - Update or add documentation if needed.
+   * Follow the existing code style.
+   * Add comments where necessary.
+   * Update or add documentation if needed.
 
 5. **Test your changes**  
-   - Make sure the application compiles and runs.
-   - Add or update tests if applicable.
+   * Make sure the application compiles and runs.
+   * Add or update tests if applicable.
 
 6. **Commit your changes**  
    ```
@@ -43,21 +43,21 @@
    ```
 
 8. **Open a Pull Request**  
-   - Go to the original repository.
-   - Click "**Compare & pull request**".
-   - Fill in the PR template and submit.
+   * Go to the original repository.
+   * Click "**Compare & pull request**".
+   * Fill in the PR template and submit.
 
 ## Code Style
 
-- Use clear, **universally descriptive** variable and function names.
-- Keep functions focused and **modular**.
-- Use **consistent** indentation (4 spaces).
-- Comment complex logic.
+* Use clear, **universally descriptive** variable and function names.
+* Keep functions focused and **modular**.
+* Use **consistent** indentation (4 spaces).
+* Comment complex logic.
 
 ## Reporting Issues
 
-- Use the [**Issues**](https://github.com/tecnolgd/PredictaExpense-cpp/issues) tab to report bugs or suggest features.
-- Provide clear steps to reproduce bugs.
+* Use the [**Issues**](https://github.com/tecnolgd/PredictaExpense-cpp/issues) tab to report bugs or suggest features.
+* Provide clear steps to reproduce bugs.
 
 ## Code of Conduct
 
