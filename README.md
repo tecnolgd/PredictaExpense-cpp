@@ -93,7 +93,7 @@ cd PredictaExpense
  
  ## README add-ons ➕   
 - [x] Sample screenshots for i/o
-- [x] Predicta Flowchart
+- [x] Predicta Expense cpp Flowchart
 - [x] Contribution Guildelines
 - [ ] **Backend development**
 - [ ] Coming soon!
