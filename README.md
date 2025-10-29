@@ -2,6 +2,7 @@
 ![Static Badge](https://img.shields.io/badge/tools-Open_Source-blue)
 ![Static Badge](https://img.shields.io/badge/interface-CLI-white)
 ![Static Badge](https://img.shields.io/badge/version-v1.1-red)
+![Travis (.com)](https://img.shields.io/travis/com/tecnolgd/Predicta-Expense-cpp)
 
 # PREDICTA EXPENSE💰🔮
 ### A logical CLI-based **expense** tracker with **predictive** savings insights — built to help you control today and forecast future savings.    
