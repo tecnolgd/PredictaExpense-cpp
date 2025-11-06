@@ -103,9 +103,9 @@ cd PredictaExpense
 *  If this repository added value to your learning or dev flow ,consider dropping a ⭐or hitting ***fork***.  
 * Open for recieving feedback and knowledge exchange.
  
- ## Contributing Guidelines📜
+ ## Contributing Guidelines 📃  
  Please read and follow our [Contibuting Guidelines](CONTRIBUTING.md)
- ---
+
  ### Author     
  ***tecnolgd***
 
