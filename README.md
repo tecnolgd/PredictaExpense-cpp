@@ -96,7 +96,7 @@ cd PredictaExpense
 - [x] Sample screenshots for i/o
 - [x] Predicta Expense cpp Flowchart
 - [x] Contribution Guildelines
-- [ ] **Backend development**
+- [ ] **Backend development**(shelved for now)
 - [ ] Coming soon!
  
  ## Value this repo ? ✨
